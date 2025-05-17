@@ -2,3 +2,6 @@ streamlit
 pandas
 beautifulsoup4
 requests
+python auto_scraper_push.py
+pip install pandas beautifulsoup4 requests PyGithub
+0 * * * * /usr/bin/python3 /path/to/auto_scraper_push.py
