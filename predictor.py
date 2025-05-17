@@ -1,4 +1,10 @@
 import pandas as pd
+import pandas as pd
+
+def generate_prediction():
+    url = "https://raw.githubusercontent.com/Sethita911/football-prediction-bot/main/predictions.csv"
+    df = pd.read_csv(url)
+    return df
 from scraper import scrape_predictz, scrape_onemillion, scrape_bettingclosed
 
 def generate_prediction():
